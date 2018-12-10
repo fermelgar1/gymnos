@@ -7,6 +7,36 @@
   height: 40vmin;
 }
 
+.button{
+  height: 6vmin;
+  width: 15vmin;
+  color: bisque;
+  background-color: #4a73be50;  
+  font-size: 2vmin;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.logDiv{
+  background-color: rgba(7, 91, 160, 0.308);
+  height: 50vmin;
+  width: 75vmin;
+}
+.table { 
+  margin : 20 px 0 ; 
+}
+.divv{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: calc(3px + 2vmin);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  min-width: 100vh;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -16,10 +46,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .App-link {
-  color: #61dafb;
+  color: #484949;
 }
 
 @keyframes App-logo-spin {
